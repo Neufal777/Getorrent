@@ -1,0 +1,121 @@
+body#body{
+    background-color: #1e1f1f;
+}
+#login_container{
+    width: 290px;
+    height: 300px;
+    margin: auto;
+    margin-top: 11%;
+    background-color: white; 
+    padding: 10px;
+}
+
+#register_container{
+    width: 320px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 8%;
+    display: none;
+    background-color: white;
+}
+
+input.input_form { 
+background-color: white;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 10px;
+width: 90%;
+margin: 4%;
+ border-bottom: 1px solid #3498DB;
+transition: border .4s;
+}
+
+input.input_form:focus {
+border-bottom: 1px solid black ;
+box-shadow: none;
+outline: none;
+}
+
+.login_btn_login {
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.register_btn_login {
+  border: 2px solid transparent;
+  background-color: firebrick;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+    border: solid 5px  #1e1f1f ;
+}
+
+.login_btn_register {
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  display: block;
+  width: 90%;
+  border: solid 5px #1e1f1f; 
+  margin: 0 auto;
+}
+
+.register_btn_register {
+  border: 2px solid transparent;
+  background-color: firebrick;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#login_title{
+    width: 25px;
+    height:55px;
+    border-radius: 20px;
+}
+
+.alerta{
+  width: 20%;
+  margin:2%;
+}
+
+::-webkit-input-placeholder{
+  -webkit-transition:.3s;
+}
+input:focus::-webkit-input-placeholder {
+    padding-left: 255px;
+
+}

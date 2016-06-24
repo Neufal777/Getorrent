@@ -1,0 +1,19 @@
+.alerta{width: 400px;margin: 12px;}
+#search_input_container{width: 400px;height: 50px;margin: auto;}
+#files_container{width: 600px;margin: auto;height: 50px;background-color: white;border-radius: 3px;margin-top: 12px;}
+#title{padding: 15px;margin-left: 7px;margin-top: 7px;font-size: 15px;}
+a#title:hover{text-decoration: none;}
+a#title{color: #26596A;margin-top: -10px;position: absolute;}
+.white{color: #26596A;font-size: 20px;}
+#download_torrent{float: right;padding: 4px;margin-right: 15px;}
+p{padding: 3px;position: absolute;}
+#red{color: red;}
+#menu{margin: 10px;position: absolute;margin-left: 150px;}
+#home_header{width: 100%; background-color: #1e1f1f; height: 50px; font-size: 12px; }
+#home_menu{width: 200px;position: absolute; margin-top: 15px; margin-left: 60%;}
+#home_menu>ul>li{list-style: none; display: inline; padding: 2%;}
+#home_menu>ul>li>a:hover{text-decoration: none;}
+#logo{position: absolute;margin-left: 10px;margin-top: 10px;}
+#home_search_person{width: 30%;  margin-top: 9px; position: absolute;  margin-left: 250px;}
+
+#results_count{margin-left: 25px; margin-top: 25px; }

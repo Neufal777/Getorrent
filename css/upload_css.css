@@ -1,0 +1,32 @@
+
+#search_input_container{width: 500px;height: 50px;margin: auto;}
+#upload_form_container_general{width: 400px;height: 500px;margin: auto;}
+@charset "utf-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+[class*="fontawesome-"]:before {font-family: 'FontAwesome', sans-serif;}
+input {border: none;font-family: 'Open Sans', Arial, sans-serif;font-size: 16px;line-height: 1.5em;padding: 0;
+-webkit-appearance: none;}
+p {line-height: 1.5em;}
+after { clear: both; }
+#login {margin: 50px auto;width: 100%;}
+#login form {margin: auto;padding: 22px 22px 22px 22px;width: 100%;border-radius: 5px;}
+#login form input[type="submit"] {background: #b5cd60;border: 0;width: 100%;height: 40px;border-radius: 3px;color: white;cursor: pointer;transition: background 0.3s ease-in-out;}
+#login form input[type="submit"]:hover {background: #16aa56;}
+input[type="file"]{color:#282e33;}
+.white{color: #282e33;}
+.alerta{width: 300px;margin-top: -150px;margin-left: 150px;}
+#menu{margin: 10px;position: absolute;margin-left: 150px;}
+.foo {display: block;position: relative;width: 200px;cursor: pointer;border: 0;height: 30px;border-radius: 5px;outline: 0;}
+.foo:hover:after {background: #16aa56;}
+.foo:after {transition: 200ms all ease;border-bottom: 3px solid rgba(0,0,0,.2);background: #16aa56;text-shadow: 0 2px 0 rgba(0,0,0,.2);color: #fff;font-size: 12px;text-align: center;position: absolute;top: 0;left: 0;width: 100%;height: 100%;display: block;content: 'Select File..';line-height: 30px;border-radius: 5px;}
+#home_header{width: 100%; background-color: #1e1f1f; height: 50px; font-size: 12px; }
+#home_menu{width: 200px;position: absolute; margin-top: 15px; margin-left: 60%;}
+#home_menu>ul>li{list-style: none; display: inline; padding: 2%;}
+#home_menu>ul>li>a:hover{text-decoration: none;}
+#home_search_person{width: 30%;  margin-top: 9px; position: absolute;  margin-left: 250px;}
+
+#logo{
+position: absolute;
+margin-left: 10px;
+margin-top: 10px;
+}

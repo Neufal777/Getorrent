@@ -3,6 +3,8 @@
 
 	if (isset($_SESSION['id'])) {
 		
+		//declaring some śession variables
+
 		$id = $_SESSION['id'];
 		$name = $_SESSION['name'];
 		$surname = $_SESSION['surname'];
@@ -10,7 +12,9 @@
 		$email = $_SESSION['email'];
 		$password = $_SESSION['password'];
 		$complete_name = $name." ".$surname;
+
 	}else{
+
 		header("location:index.php");
 	}
 ?>
@@ -58,17 +62,23 @@
 </div>
 </div>
    <script type="text/javascript">
+
    	$(document).ready(function(){
+
    		$('#show_menu_icon').click(function(){
+
    			$('#categories_container').fadeIn();
    			$('#show_menu_icon').hide();
    			$('#hide_menu_icon').fadeIn();
+
    		});
 
    		$('#hide_menu_icon').click(function(){
+
    			$('#show_menu_icon').fadeIn();
    			$('#hide_menu_icon').hide();
    			$('#categories_container').fadeOut();
+   			
    		})
    	})
    </script>                                                                   

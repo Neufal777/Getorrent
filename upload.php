@@ -2,8 +2,12 @@
 session_start();
 
 if (isset($_SESSION['id'])) {
-    $username = $_SESSION['username'];
+    
+   $username = $_SESSION['username'];
+    
 } else {
+    
+    //if the page doesn't exist, redirect the user
     header("location: index.php");
 }
 ?>

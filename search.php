@@ -2,8 +2,11 @@
 	session_start();
 
 	if (isset($_SESSION['id'])) {
+		
 		$username = $_SESSION['username'];
+		
 	}else{
+		
 		header("location: index.php");
 	}
 ?>
@@ -11,9 +14,11 @@
 	include 'php/connection.php';
 	$searched = mysqli_real_escape_string($db_con, $_POST['searched_input']);
 	$search_query = mysqli_query($db_con,"SELECT * FROM uploads WHERE name LIKE '%{$searched}%' or author LIKE  '%{$searched}%' order by 1 desc");
-
+	
+	//Num of results
 	$count = mysqli_num_rows($search_query);
 ?>
+
 <html>
 <head>
 	<title>( <?php echo $_POST['searched_input']; ?> ) Searching...</title>
@@ -27,8 +32,13 @@
     <div id="home_header">
     <a href="home.php"><img id="logo" src="img/logo.png"></a>
     <div id="home_search_person">
+	    
+	    
 <form method="POST" action="search.php">
-<input type="text" class="form-control search_input input-sm" name="searched_input" placeholder="Search (Click Enter To Search)"></form></div>
+<input type="text" class="form-control search_input input-sm" name="searched_input" placeholder="Search (Click Enter To Search)">
+</form>
+</div> <!--home_search_person-->
+	    
     <div id="home_menu">
 <ul>
 <li><a href="profile.php?user=<?php echo $username; ?>"> Profile</a></li>

@@ -60,7 +60,9 @@
    <div id="resultado"></div>
 <!--   SHOW & HIDE REGISTER AND LOGIN FORMS-->
    <script>
+
         $(document).ready(function(){
+          //oom
             $('#show_register_form').click(function(){
                 $('#login_container').hide();
                 $('#register_container').fadeIn(1000);
